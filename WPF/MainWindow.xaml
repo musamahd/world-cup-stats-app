@@ -1,0 +1,195 @@
+﻿<Window x:Class="WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF"
+        mc:Ignorable="d"
+        Title="WORLD CUP" x:Name="ttlWC" Height="700" Width="800" Loaded="ttlWC_Loaded" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="FontStyle" Value="Italic"/>
+            <Setter Property="Foreground" Value="Red"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Width" Value="70"/>
+            <Setter Property="Height" Value="20"/>
+            <Setter Property="FontSize" Value="11"/>
+        </Style>
+        <Style TargetType="ComboBox">
+            <Setter Property="Width" Value="140"/>
+            <Setter Property="Height" Value="25"/>
+        </Style>
+        
+    </Window.Resources>
+    <StackPanel>
+    <Grid Background="LightSkyBlue">
+        <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150*"/>
+                <ColumnDefinition Width="80*"/>
+                <ColumnDefinition Width="150*"/>
+            </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+                <RowDefinition Height="40*"/>
+            </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="0">
+            <TextBlock 
+                Text="Home Team"  
+                VerticalAlignment="Center" 
+                Margin="10,10,0,0"
+                Height="24"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="0">
+                <ComboBox
+                x:Name="cbHome" 
+                HorizontalAlignment="Right" 
+                VerticalAlignment="Center" 
+                SelectionChanged="cbHome_SelectionChangedAsync"
+                Margin="10">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding}" FontSize="12" Foreground="Gray"/>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+            <Button
+                x:Name="btnHomeStats" Click="btnHomeStats_Click"
+                Content="{x:Static local:Resources.btnStats}"
+                IsEnabled="False"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center">
+            <TextBlock
+                Text="SCORE" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Label 
+                x:Name="lblHomeScore" 
+                Content="0" 
+                FontSize="20" 
+                Width="40"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center" 
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"/>
+            <TextBlock Text="-" FontSize="20"/>
+            <Label 
+                x:Name="lblAwayScore"
+                Content="0"
+                FontSize="20" 
+                Width="40"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                HorizontalContentAlignment="Center" 
+                VerticalContentAlignment="Center"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <TextBlock
+                Text="Away team" 
+                VerticalAlignment="Center"
+                HorizontalAlignment="Left"
+                Margin="0,10,0,0"/>
+            <Button 
+                x:Name="btnSettings" 
+                Content="{x:Static local:Resources.Settings}" 
+                Click="BtnPostavke_Click"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                Margin="120 8 40 -20"
+                
+                />
+        </StackPanel>
+            <StackPanel Grid.Row="1" Grid.Column="2" VerticalAlignment="Center">
+                <ComboBox
+                x:Name="cbAway"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Center"
+                SelectionChanged="cbAway_SelectionChangedAsync">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding}" FontSize="12" Foreground="Gray"/>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+                <Button 
+                    x:Name="btnAwayStats"
+                    Content="{x:Static local:Resources.btnStats}"
+                    Click="btnAwayStats_Click"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Top"
+                    IsEnabled="False"
+                    Margin="0 -23 85 0"
+                    />
+            </StackPanel>
+        </Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+           
+            <StackPanel 
+        x:Name="spGKHome" 
+        Grid.Column="0" 
+        VerticalAlignment="Center" 
+        Width="80"
+                
+                />
+            <StackPanel 
+        x:Name="spDEFHome" 
+        Grid.Column="1" 
+        VerticalAlignment="Center" 
+        Width="80"
+                >
+            </StackPanel>
+            <StackPanel 
+        x:Name="spMIDHome"
+        Grid.Column="2" 
+        VerticalAlignment="Center" 
+        Width="80">
+            </StackPanel>
+            <StackPanel 
+        x:Name="spATTHome" 
+        Grid.Column="3" 
+        VerticalAlignment="Center" 
+        Width="80">
+            </StackPanel>
+            <StackPanel 
+        x:Name="spATTAway" 
+        Grid.Column="4" 
+        VerticalAlignment="Center" 
+        Width="80">
+            </StackPanel>
+            <StackPanel 
+        x:Name="spMIDAway" 
+        Grid.Column="5" 
+        VerticalAlignment="Center" 
+        Width="80">
+            </StackPanel>
+            <StackPanel 
+        x:Name="spDEFAway" 
+        Grid.Column="6" 
+        VerticalAlignment="Center" 
+        Width="80">
+            </StackPanel>
+            <StackPanel 
+        x:Name="spGKAway" 
+        Grid.Column="7" 
+        VerticalAlignment="Center" 
+        Width="80">
+            </StackPanel>
+            <Image 
+        Grid.ColumnSpan="8"
+        Source="/Images/Field.jpg"
+        Stretch="UniformToFill"
+        Panel.ZIndex="-2"/>
+        </Grid>
+    </StackPanel>
+</Window>

@@ -1,0 +1,40 @@
+C:\Users\musam\OneDrive\Desktop\WorldCupStats\MainForm\bin\Debug\MainForm.exe.config
+C:\Users\musam\OneDrive\Desktop\WorldCupStats\MainForm\bin\Debug\MainForm.exe
+C:\Users\musam\OneDrive\Desktop\WorldCupStats\MainForm\bin\Debug\MainForm.pdb
+C:\Users\musam\OneDrive\Desktop\WorldCupStats\MainForm\bin\Debug\hr\MainForm.resources.dll
+C:\Users\musam\OneDrive\Desktop\WorldCupStats\MainForm\bin\Debug\DataLayer.dll
+C:\Users\musam\OneDrive\Desktop\WorldCupStats\MainForm\bin\Debug\Newtonsoft.Json.dll
+C:\Users\musam\OneDrive\Desktop\WorldCupStats\MainForm\bin\Debug\DataLayer.pdb
+C:\Users\musam\OneDrive\Desktop\WorldCupStats\MainForm\bin\Debug\Newtonsoft.Json.xml
+C:\Users\musam\OneDrive\Desktop\WorldCupStats\MainForm\obj\Debug\MainForm.csproj.AssemblyReference.cache
+C:\Users\musam\OneDrive\Desktop\WorldCupStats\MainForm\obj\Debug\MainForm.Controls.PlayerControl.resources
+C:\Users\musam\OneDrive\Desktop\WorldCupStats\MainForm\obj\Debug\MainForm.Form1.resources
+C:\Users\musam\OneDrive\Desktop\WorldCupStats\MainForm\obj\Debug\MainForm.FormSettings.resources
+C:\Users\musam\OneDrive\Desktop\WorldCupStats\MainForm\obj\Debug\MainForm.Properties.Resources.resources
+C:\Users\musam\OneDrive\Desktop\WorldCupStats\MainForm\obj\Debug\MainForm.Form1.hr.resources
+C:\Users\musam\OneDrive\Desktop\WorldCupStats\MainForm\obj\Debug\MainForm.csproj.GenerateResource.cache
+C:\Users\musam\OneDrive\Desktop\WorldCupStats\MainForm\obj\Debug\MainForm.csproj.CoreCompileInputs.cache
+C:\Users\musam\OneDrive\Desktop\WorldCupStats\MainForm\obj\Debug\hr\MainForm.resources.dll
+C:\Users\musam\OneDrive\Desktop\WorldCupStats\MainForm\obj\Debug\MainForm.csproj.Up2Date
+C:\Users\musam\OneDrive\Desktop\WorldCupStats\MainForm\obj\Debug\MainForm.exe
+C:\Users\musam\OneDrive\Desktop\WorldCupStats\MainForm\obj\Debug\MainForm.pdb
+C:\Users\musam\OneDrive\Desktop\ALGEBRA\2 GODINA\.NET\WorldCupStats\MainForm\bin\Debug\MainForm.exe.config
+C:\Users\musam\OneDrive\Desktop\ALGEBRA\2 GODINA\.NET\WorldCupStats\MainForm\bin\Debug\MainForm.exe
+C:\Users\musam\OneDrive\Desktop\ALGEBRA\2 GODINA\.NET\WorldCupStats\MainForm\bin\Debug\MainForm.pdb
+C:\Users\musam\OneDrive\Desktop\ALGEBRA\2 GODINA\.NET\WorldCupStats\MainForm\bin\Debug\hr\MainForm.resources.dll
+C:\Users\musam\OneDrive\Desktop\ALGEBRA\2 GODINA\.NET\WorldCupStats\MainForm\bin\Debug\DataLayer.dll
+C:\Users\musam\OneDrive\Desktop\ALGEBRA\2 GODINA\.NET\WorldCupStats\MainForm\bin\Debug\Newtonsoft.Json.dll
+C:\Users\musam\OneDrive\Desktop\ALGEBRA\2 GODINA\.NET\WorldCupStats\MainForm\bin\Debug\DataLayer.pdb
+C:\Users\musam\OneDrive\Desktop\ALGEBRA\2 GODINA\.NET\WorldCupStats\MainForm\bin\Debug\Newtonsoft.Json.xml
+C:\Users\musam\OneDrive\Desktop\ALGEBRA\2 GODINA\.NET\WorldCupStats\MainForm\obj\Debug\MainForm.csproj.AssemblyReference.cache
+C:\Users\musam\OneDrive\Desktop\ALGEBRA\2 GODINA\.NET\WorldCupStats\MainForm\obj\Debug\MainForm.Controls.PlayerControl.resources
+C:\Users\musam\OneDrive\Desktop\ALGEBRA\2 GODINA\.NET\WorldCupStats\MainForm\obj\Debug\MainForm.Form1.resources
+C:\Users\musam\OneDrive\Desktop\ALGEBRA\2 GODINA\.NET\WorldCupStats\MainForm\obj\Debug\MainForm.FormSettings.resources
+C:\Users\musam\OneDrive\Desktop\ALGEBRA\2 GODINA\.NET\WorldCupStats\MainForm\obj\Debug\MainForm.Properties.Resources.resources
+C:\Users\musam\OneDrive\Desktop\ALGEBRA\2 GODINA\.NET\WorldCupStats\MainForm\obj\Debug\MainForm.Form1.hr.resources
+C:\Users\musam\OneDrive\Desktop\ALGEBRA\2 GODINA\.NET\WorldCupStats\MainForm\obj\Debug\MainForm.csproj.GenerateResource.cache
+C:\Users\musam\OneDrive\Desktop\ALGEBRA\2 GODINA\.NET\WorldCupStats\MainForm\obj\Debug\MainForm.csproj.CoreCompileInputs.cache
+C:\Users\musam\OneDrive\Desktop\ALGEBRA\2 GODINA\.NET\WorldCupStats\MainForm\obj\Debug\hr\MainForm.resources.dll
+C:\Users\musam\OneDrive\Desktop\ALGEBRA\2 GODINA\.NET\WorldCupStats\MainForm\obj\Debug\MainForm.csproj.Up2Date
+C:\Users\musam\OneDrive\Desktop\ALGEBRA\2 GODINA\.NET\WorldCupStats\MainForm\obj\Debug\MainForm.exe
+C:\Users\musam\OneDrive\Desktop\ALGEBRA\2 GODINA\.NET\WorldCupStats\MainForm\obj\Debug\MainForm.pdb
