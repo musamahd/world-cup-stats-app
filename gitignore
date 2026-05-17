@@ -1,0 +1,28 @@
+## .NET / C# gitignore
+
+# Build results
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio cache/options
+.vs/
+*.ncb
+*.opendb
+*.VC.db
+
+# NuGet packages
+packages/
+*.nupkg
+
+# Publish output
+publish/
+*.pubxml
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
